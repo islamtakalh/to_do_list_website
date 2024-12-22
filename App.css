@@ -1,0 +1,76 @@
+body{
+  background-color: palevioletred;
+}
+.App{
+  border: 1px solid #fff;
+  margin: 100px 30%;
+  
+  padding: 20px 50px 0px 50px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: pink;
+}
+.App h2{
+  color: #000;
+  font-size: 30px;
+  margin-left: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.App ul{
+  list-style: "🎗️ ";
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  color: #000;
+}
+.App input{
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
+  margin: 40px 0px;
+  border: 1px purple solid;
+  padding: 10px;
+}
+.exit{
+  font-size: 22px;
+  color: red;
+  font-weight: 800;
+}
+.App button{
+  display: block;
+  margin: auto;
+  background-color:palevioletred;
+  border-radius: 18px;
+  border: 1px purple solid;
+  color: #000;
+  width: 50px;
+  height: 30px;
+}
+.diffstyle{
+  list-style: "🎀  ";
+  text-decoration: line-through;
+}
+.diff10{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img1{
+  width:25%;
+  margin-left: 350px;
+  margin-top: 100px;
+   /* ///////////////to remove background of image */
+  /* mix-blend-mode:multiply; */  
+  mix-blend-mode:darken;  
+}
+.div2,.div3{
+  display: flex;
+}
+.img2{
+  width:25%;
+  /* margin-right: 350px; */
+   /* ///////////////to remove background of image */
+  /* mix-blend-mode:multiply; */  
+  mix-blend-mode:darken;  
+}
